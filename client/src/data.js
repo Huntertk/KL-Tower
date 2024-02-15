@@ -166,27 +166,27 @@ export const preferenceData = [
 export const cardHighLightsDetails = [
     {
         id: uuidv4(),
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1707216097/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/MW1_brg2hr.webp",
-        title:"Water Slides",
-        desc:"Take advantage of a variety of water slides that offer varying degrees of excitement and terror"
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/OD2_kzvpsd.jpg",
+        title:"Observation Deck",
+        desc:"From the tower's observation deck, take in breath-taking, all- encompassing views of Kuala Lumpur. It offers a 360-degree panorama of the city, showing the skyline and well-known sites"
     },
     {
         id: uuidv4(),
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1707216097/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/MW3_vgttik.jpg",
-        title:"Enjoy the excitement of a wave pool",
-        desc:"where man-made waves resemble surfers on the beach."
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017715/Malaysia%20Experience/KL%20Tower/SD1_vzqgv0.jpg",
+        title:"Sky Deck",
+        desc:"Savor the excitement of being on the open-air platform at a lofty viewpoint, known as the Sky Deck."
     },   
     {
         id: uuidv4(),
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1707216097/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/MW5_nyrjof.jpg",
-        title:"Lazy River",
-        desc:"Take a leisurely trip down a lazy river, floating gently in the gentle current."
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017714/Malaysia%20Experience/KL%20Tower/SB1_r2vnbq.jpg",
+        title:"Sky Box",
+        desc:"Extending from the Sky Deck, the glass-floored Sky Box awaits the daring. Gazingdown at the city below from this translucent cage is an exhilarating experience."
     },  
     {
         id: uuidv4(),
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1707216100/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/MW7_k7zpli.jpg",
-        title:"Children's Play Section",
-        desc:"To ensure that young guests have a fun and safe experience, Melaka Wonderland frequently has a separate section with smaller slides, water sprays, and shallow pools."
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017719/Malaysia%20Experience/KL%20Tower/image2-4_ojzcvd.png",
+        title:"Tower Walk 100",
+        desc:"The KL Tower walk is an adrenaline-pumping activity that involves walking on an open-air ledge encircling the tower at a considerable height."
     },  
 ]
 
@@ -195,18 +195,18 @@ export const cardHighLightsDetails = [
 export const thingsTodo = [
     {
         id: uuidv4(),
-        desc:"Melaka Wonderland offers exclusive attractions that guarantee boundless enjoyment, providing each visitor with an exhilarating experience and captivating views of apristine natural forest.",
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1707216102/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/MW8_ncu3zx.webp"
+        desc:"Skydeck presents the 360° skyline view of the city with breeze in an open-air deck.",
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017716/Malaysia%20Experience/KL%20Tower/sky_deck_3_wyafkz.jpg"
     },
     {
         id: uuidv4(),
-        desc:"This distinctive water-themed park boasts 11 attractions.",
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1707216097/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/fit_xtwhui.jpg"
+        desc:"Feel the adrenaline rush for outdoor activities with walking at the 100 ft above the city with Tower Walk 100.",
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017719/Malaysia%20Experience/KL%20Tower/image2-4_ojzcvd.png"
     },
     {
         id: uuidv4(),
-        desc:"The recently introduced tourist spot captures the interest of both local residents and international visitors, generating enthusiasm among families, children, teenagers, and adventure enthusiasts alike.",
-        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1707216098/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/MW6_pocsib.webp"
+        desc:"For those who want to stay indoors, they offers panoramic views of the metropolitan city from its Observation Deck, which soars 276 meters above the ground",
+        image: "https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/KL_Tower_Observation_Deck_khzvt1.jpg"
     },
     
 ]
@@ -217,28 +217,28 @@ export const addQues = [
         id: uuidv4(),
         ques:"Operating Hours ?",
         ans:[
-            "Open Tues - Sun ( 10am - 6pm )",
-            "Closed every Monday",
-            "Except School and Public Holidays"
+            "All attraction opens from 9am to 10pm",
+            "Opens everyday"
         ]
     },
     {
         id: uuidv4(),
         ques:"Child Policy",
         ans:[
-            "Adult age 13 - 59 years old",
-            "Child below 3 years old enter for Free",
-            "Senior Citizen 60 years old and above",
+            "Adult age 13 and above",
+            "Child age 4 to 12 years old",
+            "Below 4 years old enter for Free",
+            "Senior citizen may purchase at the counter directly",
+            "OKU may purchase at the counter directly",
         ]
     },
     {
         id: uuidv4(),
         ques:"Important Information",
         ans:[
-            "Senior citizen and OKU may purchase the ticket at the counter directly.",
-            "Ticket is applicable for Weekend and Weekday.",
-            "Ticket is applicable for Malaysian and Non-Malaysian.",
-            "Ticket does not include meals, cabana, tube and Locker.",
+            "For Tower Walk 100, minimum height of 120cm is required and must weight between 34kg to 140kg",
+            "Customer may refer the counter if unable to proceed with the activity in caseof bad weather",
+            "On-site locker is available for Tower Walk 100",
         ]
     },
     {
@@ -269,23 +269,38 @@ export const addQues = [
 export const homeFAQ = [
     {
         id: uuidv4(),
-        ques:"Is there any discount for OKU or disabled person ?",
-        ans:"Yes, you may purchase your tickets at the counter for special price."
+        ques:"Can I bring along my camera inside the tower ?",
+        ans:"Yes you may."
     },
     {
         id: uuidv4(),
-        ques:"Can I re-enter the Themepark once entered ?",
-        ans:"No. The ticket is only for ONE time entry."
+        ques:"What should I do if it rains ?",
+        ans:"You may refer to the counter for advise on ticket extension."
     },
     {
         id: uuidv4(),
-        ques:"Can I bring my own food inside the park ?",
-        ans:"No, outside food and drinks are not allowed inside the park."
+        ques:"Can I bring stroller or wheelchair inside the tower ?",
+        ans:"Yes you may bring"
     },
     {
         id: uuidv4(),
-        ques:"If I don't play, can I just enter with my kids without ticket?",
-        ans:"No. You need to have an entrance ticket in order to enter the park."
+        ques:"Does my ticket include parking ?",
+        ans:"No. Parking is not provided"
+    },
+    {
+        id: uuidv4(),
+        ques:"Is there any time slot to enter the attraction ?",
+        ans:"No, you may enter any time within the operation hours."
+    },
+    {
+        id: uuidv4(),
+        ques:"What is the closest MRT station to the KL Tower ?",
+        ans:"Monorail station Bukit Nanas and also Dang Wangi is the closest station. You'll walkroughly 20 minutes to reach the tower."
+    },
+    {
+        id: uuidv4(),
+        ques:"Is the KL Tower open everyday ?",
+        ans:"Yes. Open everyday from 9am to 10pm."
     },
 ]
 

@@ -6,21 +6,21 @@ const HomeWhyVisit = () => {
   return (
     <section className='whyVisitMainComponents'>
         
-        <h1>Why You Need to Visit Melaka Wonderland Waterpark ?</h1>
+        <h1>Why You Need to Visit KL TOWER ?</h1>
         <div className="whyVisitCardContainer">
             <div className="listData">
 
                     <p>
-                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1707216097/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/MW3_vgttik.jpg" alt="image" /><br />
-                        <span>Family Entertainment</span>Melaka Wonderland is a great place for parents and kids toenjoywater activities together since it is made with families in mind.<br/>
+                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708017717/Malaysia%20Experience/KL%20Tower/sky_deck_zjutli.jpg" alt="image" /><br />
+                        <span>Panoramic Views</span> Kuala Lumpur's skyline and surrounding area are breathtakingly visiblefrom KL Tower.<br/>
                     </p>
                     <p>
-                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1707216097/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/fit_xtwhui.jpg" alt="images" /><br />
-                        <span>Thrill Seekers</span>The park draws guests who like heart-pounding experiences with a variety of exhilarating water slides and attractions.<br/>
+                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/kl_tower_1_qyifma.jpg" alt="images" /><br />
+                        <span>Iconic Landmark</span>The KL Tower is a prominent feature of Kuala Lumpur's skyline and an iconic landmark.<br/>
                     </p>
                     <p>
-                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1707216097/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/MW1_brg2hr.webp" alt="IMAGE" /><br />
-                        <span>Escape from Heat</span>The water park offers a refreshing method to cool down and have fun in the water in a tropical region like Malaysia.<br/>
+                        <img src="https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/KL_Tower_Observation_Deck_khzvt1.jpg" alt="IMAGE" /><br />
+                        <span>Adventure Activities</span>The Sky Box and Sky Deck, two of the tower's many adventureactivities, let thrill-seekers feel what it's like to be suspended very far above the ground.<br/>
                     </p>
                     
             </div>
