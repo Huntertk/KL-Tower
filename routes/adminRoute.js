@@ -5,7 +5,7 @@ import { authAdmin } from '../middlewares/authMiddleware.js'
 
 const router  = Router()
 
-router.post('/register', registerAdmin)
+// router.post('/register', registerAdmin)
 router.post('/login', loginAdmin)
 router.get('/logout', logoutAdmin)
 router.get('/admin-data', authAdmin, getAdminData)

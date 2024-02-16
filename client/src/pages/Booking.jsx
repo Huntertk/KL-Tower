@@ -46,7 +46,7 @@ const Booking = () => {
                 bookingType: type,
                 responseClientUrl,
                 pref,
-                websiteName: "MELAKA WONDERLAND WATERPARK"
+                websiteName: "KL TOWER"
             })
             const response = res.data;
             const {data} = await axios.get('/api/v1/booking/totalbooking')
@@ -67,7 +67,7 @@ const Booking = () => {
     return (
         <section className='bookingMainContainer'>
             <div className="bookingWrapper">
-                <img className='banner' src={"https://res.cloudinary.com/drrkaak40/image/upload/v1707216101/Malaysia%20Experience/Melaka%20Wonderland%20Waterpark/slide_qkjieu.png"} alt="banner " />
+                <img className='banner' src={"https://res.cloudinary.com/drrkaak40/image/upload/v1708017713/Malaysia%20Experience/KL%20Tower/OD2_kzvpsd.jpg"} alt="banner " />
                 <h1>Confirm and Pay</h1>
                 <div className="detailsWrapper">
                     <div className="detailsContainerWithTimeSlot">

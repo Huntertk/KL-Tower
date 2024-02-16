@@ -64,8 +64,8 @@
         padding: 1rem;
         .contentContainer{
             display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
-            align-items: center;
             .content{
                 display: flex;
                 align-items: center;
